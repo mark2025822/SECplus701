@@ -1,7 +1,7 @@
 TASK1: COLLAPSED BACKBONE: BASIC LAYER3 CONFIGURATION.
 !@@@CORE SWITCH SA TAAS
 config t
-   hostname COREtaas-~~
+   hostname COREtaas31
    enable secret pass
    service password-encryption
    no logging console
@@ -35,7 +35,7 @@ end
 !!!DAPAT 7 UNDER~~SCORE ANG NA EDIT MO  ( LINE 34 to 68 PASTE TO COREBABA SWITCH )
 !@@@LeafSwitchONLY
 config t
-   hostname COREbaba-~~
+   hostname COREbaba31
    enable secret pass
    service password-encryption
    no logging console
@@ -202,7 +202,7 @@ CALLMANAGER EXPRESS CONFIGURATION FOR VOIP/TELEPHONY ENGINEERS
 !!cisco unified call manager Express command
 !@@@CUCM-M
 config t
-   hostname CUCM-~~
+   hostname CUCM31
    enable secret pass
    service password-encryption
    no logging console
@@ -371,7 +371,7 @@ TASK3***TASK3***TASK3***
 PRIMARY EDGE ROUTER CONFIGURATION! owned by PLDT !!!
 !@@@EDGE ROUTE CONFIG
 config t
-   hostname EDGE-~~
+   hostname EDGE31
    enable secret pass
    service password-encryption
    no logging console
@@ -588,7 +588,7 @@ DEBUG COMMANDS
 =============================================================
 
           
-http://docwiki.cisco.com/wiki/Cisco~~IOS~~Voice~~Troubleshooting~~and~~Monitoring~~--~~Tcl~~IVR~~Troubleshooting
+http://docwiki.cisco.com/wiki/Cisco~~IOS~~Voice~~Troubleshooting~~and~~Monitoring~~-31Tcl~~IVR~~Troubleshooting
 
 debug voice application ?
 debug voice application error
